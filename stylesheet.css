@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+#header {
+	  background-color: #333;
+}
+#header h1 {
+	background-color: #333;
+	text-align: center;
+	font-family: "Kanit ExtraLight";
+	src: url("fonts/kanit/Kanit-ExtraLight.ttf");
+	color: white;
+	margin: 0;
+	width: 100%;
+}
+
+#nav {
+	  background-color: #333;
+	padding: 0;
+	width: 100%;
+}
+#nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  margin: auto;
+
+}
+#nav li {
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Kanit ExtraLight";
+	src: url("fonts/kanit/Kanit-ExtraLight.ttf");
+	display: flex;
+	
+}
+#nav li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  vertical-align:text-top;
+  display: flex;
+}
+#nav li a:hover, a:active, a:visited, a:link {
+	text-decoration: none;
+ }
+
+#body1 {
+	color:cornflowerblue;
+}
+
+#body1 a {
+	text-decoration: none;
+	color: lightblue;
+}
+
+#body1 h1 {
+	text-align: center;
+	font-family: 'Kanit ExtraLight';
+	src: url("fonts/kanit/Kanit-ExtraLight.ttf");
+}
+#body1 p {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	font-family: Kanit;
+	src: url("fonts/kanit/Kanit-Regular.ttf")
+}
+
+
+#servertable table,th,td {
+	text-align: center;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	/* border-collapse: collapse; */
+	padding: 5px 5px;
+	/* border: 2px solid black; */
+	border-collapse: collapse;
+	font-family: 'Kanit Medium';
+	src: url("fonts/kanit/Kanit-Medium.ttf");
+	position:relative;
+    border:5px solid cornflowerblue;
+	border-radius:20px;
+	line-height:1.5;
+	color:white;
+}
+#servertable table {
+	width: 100%;
+	table-layout: fixed;
+}
+#servertable th {
+	color:deeppink
+}
+#servertable a:link, a:visited, a:hover, a:active {
+	color:green;
+	text-decoration: none;
+	font-family: 'Kanit ExtraBold';
+	src: url("fonts/kanit/Kanit-ExtraBold.ttf")
+}
+body {
+	background: #1B1B24 ;
+}
+
+#error {
+	color: red;
+}
+
+#uptime {
+	text-align: center;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Kanit Medium';
+	src: url("fonts/kanit/Kanit-Medium.ttf");
+	position:relative;
+    font-size:1em;
+	line-height:1.5;
+	color:white;
+	margin-top: 0px;
+}
+#uptime p {
+	font-size: 120%;
+}
+
+#servername {
+	
+	text-align: center;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Kanit Light';
+	src: url("fonts/kanit/Kanit-Light.ttf");
+	position:relative;
+    font-size:1em;
+	line-height:1.5;
+	color:white;
+}
+
+
+#statusgreen {
+	text-align: center;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Kanit Light';
+	src: url("fonts/kanit/Kanit-Light.ttf");
+	position:relative;
+    font-size:1em;
+	line-height:1.5;
+	color:forestgreen;
+	display: inline;
+}
+
+#statusred {
+	text-align: center;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Kanit Light';
+	src: url("fonts/kanit/Kanit-Light.ttf");
+	position:relative;
+    font-size:1em;
+	line-height:1.5;
+	color:red;
+	display: inline;
+	
+}
+
+#serverstatus {
+	text-align: center;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Kanit Light';
+	src: url("fonts/kanit/Kanit-Light.ttf");
+	position:relative;
+    font-size:1em;
+	line-height:1.5;
+	color:white;
+	display: inline;
+}
+
+
+#serverspage footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	font-family: 'Kanit Light';
+	src: url("fonts/kanit/Kanit-Light.ttf");
+	text-align: center;
+	font-size:1em;
+	line-height:1.5;
+	color:white;
+	display: inline;
+	align-content: center;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-family: 'Kanit Light';
+	src: url("fonts/kanit/Kanit-Light.ttf");
+	text-align: center;
+	font-size:1em;
+	line-height:1.5;
+	color:white;
+	display: inline;
+	align-content: center;
+}
