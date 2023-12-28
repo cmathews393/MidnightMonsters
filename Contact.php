@@ -18,7 +18,6 @@
 	  <li><a href="https://forums.midnightmonsters.net">Forums</a></li>
 	</ul>
 </div>
-<script type="text/javascript" src="https://midnightmonsterssupport.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/1jmxwi/b/9/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=97032f4f"></script>
 
 	
 <div id="body1">
