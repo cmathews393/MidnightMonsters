@@ -104,7 +104,7 @@
 				echo "<td> <p id=\"error\" >OFFLINE! </p> </td> </tr>";
 			}
 			?>
-	<tr>
+/*	<tr>
 		<td><!-- <a id="info" href="CSGO1.php"> -->
 		<?php if ($CSGO1Info ['HostName'] != null)
 			{
@@ -140,6 +140,7 @@
 				echo "<td> <p id=\"error\" >OFFLINE! </p> </td> </tr>";
 			}
 			?>
+*/
 		<tr>	
 		<td><!-- <a id="info" href="ARK1.php"> -->
 		<?php if ($ARK1Info ['HostName'] != null)
