@@ -4,7 +4,7 @@
 	use xPaw\SourceQuery\SourceQuery;
 	//LOOP1 - KF2
 	// Edit this ->
-	define( 'KFADDR', '72.24.140.125' );
+	define( 'KFADDR', 'public.midnightmonsters.net' );
 	define( 'KFPORT', 27015 );
 	define( 'KFTIMEOUT',     1 );
 	define( 'KFENGINE',      SourceQuery::SOURCE );
@@ -36,7 +36,7 @@
 	}
 
 	// Edit this ->
-	define( 'PZADDR', '72.24.140.125' );
+	define( 'PZADDR', 'public.midnightmonsters.net' );
 	define( 'PZPORT', 16000 );
 	define( 'PZTIMEOUT',     1 );
 	define( 'PZENGINE',      SourceQuery::SOURCE );
@@ -67,7 +67,7 @@
 		$PZQuery->Disconnect( );
 	}
 	//LOOP3 - CSGO1			
-	define( 'CSGO1ADDR', '72.24.140.125' );
+	define( 'CSGO1ADDR', 'public.midnightmonsters.net' );
 	define( 'CSGO1PORT', 16006 );
 	define( 'CSGO1TIMEOUT',     1 );
 	define( 'CSGO1ENGINE',      SourceQuery::SOURCE );
@@ -99,7 +99,7 @@
 	}
 
 
-	/* define( 'CSGO2ADDR', '72.24.140.125' );
+	/* define( 'CSGO2ADDR', 'public.midnightmonsters.net' );
 	define( 'CSGO2PORT', 16011 );
 	define( 'CSGO2TIMEOUT',     1 );
 	define( 'CSGO2ENGINE',      SourceQuery::SOURCE );
@@ -131,7 +131,7 @@
 	}
 
 	*/
-	define( 'ARK1ADDR', '72.24.140.125' );
+	define( 'ARK1ADDR', 'public.midnightmonsters.net' );
 	define( 'ARK1PORT', 16016 );
 	define( 'ARK1TIMEOUT',     1 );
 	define( 'ARK1ENGINE',      SourceQuery::SOURCE );
@@ -163,7 +163,7 @@
 	}
 
 
-	define( 'ARK2ADDR', '72.24.140.125' );
+	define( 'ARK2ADDR', 'public.midnightmonsters.net' );
 	define( 'ARK2PORT', 16027 );
 	define( 'ARK2TIMEOUT',     1 );
 	define( 'ARK2ENGINE',      SourceQuery::SOURCE );
@@ -194,7 +194,7 @@
 		$ARK2Query->Disconnect( );
 	}
 
-	define( 'ARK3ADDR', '72.24.140.125' );
+	define( 'ARK3ADDR', 'public.midnightmonsters.net' );
 	define( 'ARK3PORT', 16038 );
 	define( 'ARK3TIMEOUT',     1 );
 	define( 'ARK3ENGINE',      SourceQuery::SOURCE );
@@ -225,7 +225,7 @@
 		$ARK3Query->Disconnect( );
 	}
 
-	define( 'ARK4ADDR', '72.24.140.125' );
+	define( 'ARK4ADDR', 'public.midnightmonsters.net' );
 	define( 'ARK4PORT', 16045 );
 	define( 'ARK4TIMEOUT',     1 );
 	define( 'ARK4ENGINE',      SourceQuery::SOURCE );
@@ -256,7 +256,7 @@
 		$ARK4Query->Disconnect( );
 	}
 
-	define( 'INS1ADDR', '72.24.140.125' );
+	define( 'INS1ADDR', 'public.midnightmonsters.net' );
 	define( 'INS1PORT', 16035 );
 	define( 'INS1TIMEOUT',     1 );
 	define( 'INS1ENGINE',      SourceQuery::SOURCE );
