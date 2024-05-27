@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html data-bs-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,6 +20,8 @@
 	</ul>
 </div>
 </div>
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
 <!-- SOURCE QUERY BLOCK - UPDATE ADDRESSES/ADD SERVERS HERE -->
 <?php include 'phpcall.php' ?>
 
@@ -108,7 +110,7 @@
 		<td><!-- <a id="info" href="INS1.php"> -->
 			<?php if ($PZCasualInfo ['HostName'] != null)
 				{
-					echo "<a href=INS1.php>";
+					echo "<a href=PZCasual.php>";
 					print_r($PZCasualInfo ['HostName']);
 					echo "</a>";
 					echo "</td>";
@@ -122,12 +124,12 @@
 					//print_r($PZCasualInfo ['Map']); 
 					echo "</td>";
 					echo "<td>";
-					echo "<a href=steam://connect/";
+					echo "<p>";
 					print(PZCasualADDR);
 					echo ":";
 					print(PZCasualPORT);
-					echo ">";
-					echo "CONNECT</a></td>";
+					echo "</p>";
+					echo "</td>";
 					echo "</tr>";
 				}
 				else 
@@ -144,7 +146,7 @@
 		<td><!-- <a id="info" href="INS1.php"> -->
 			<?php if ($PZHardcoreInfo ['HostName'] != null)
 				{
-					echo "<a href=INS1.php>";
+					echo "<a href=PZHardcore.php>";
 					print_r($PZHardcoreInfo ['HostName']);
 					echo "</a>";
 					echo "</td>";
